@@ -1,0 +1,86 @@
+<style>
+        body {
+        color: mediumblue;
+}
+       #xabox {
+  width: 150px;
+  height: 60px;
+  background: linear-gradient(darkred, brown);
+            position: absolute;
+            left: 613px;
+            top: 167px;
+}
+        #xbbox {
+  width: 105px;
+  height: 40px;
+  background: linear-gradient(brown, indianred);
+            position: absolute;
+            left: 635px;
+            top: 222px;
+}
+        #xcbox {
+  width: 40px;
+  height: 140px;
+  background: linear-gradient(to left, grey 0%, lightgrey 100%);
+              position: absolute;
+            left: 668px;
+            top: 260px;
+}
+        #yabox {
+  width: 150px;
+  height: 60px;
+  background: linear-gradient(brown, darkred);
+            position: absolute;
+            left: 613px;
+            top: 476px;
+}
+        #ybbox {
+  width: 105px;
+  height: 40px;
+  background: linear-gradient(indianred, brown);
+            position: absolute;
+            left: 635px;
+            top: 438px;
+}
+        #ycbox {
+  width: 40px;
+  height: 140px;
+  background: linear-gradient(to left, grey 0%, lightgrey 100%);
+              position: absolute;
+            left: 668px;
+            top: 300px;
+}
+        
+        @keyframes up {
+  from {
+    transform: translateY(-50px);
+  }
+
+  to {
+    transform: translateY(-108px);
+  }
+}
+        @keyframes down {
+  from {
+    transform: translateY(-50px);
+  }
+
+  to {
+    transform: translateY(8px);
+  }
+}
+
+#x {
+  animation-duration: 13s;
+  animation-name: up;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+        #y {
+  animation-duration: 13s;
+  animation-name: down;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+        
+    </style>
