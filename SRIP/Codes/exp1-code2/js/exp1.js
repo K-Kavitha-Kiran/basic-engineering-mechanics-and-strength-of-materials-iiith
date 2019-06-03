@@ -1,4 +1,3 @@
-<script>
 function xa() {
   var elem = document.getElementById("xabox");   
   var pos = 167;
@@ -77,4 +76,3 @@ function yc() {
          }
   }
 }
-</script>
