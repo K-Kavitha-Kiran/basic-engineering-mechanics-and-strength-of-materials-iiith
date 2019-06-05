@@ -1,6 +1,69 @@
-     body {
+ body {
         color: mediumblue;
 }
+	#dot1 {
+  height: 10px;
+  width: 12px;
+  background-color: white;   
+  animation-delay: 15s;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+    left: 682px;
+    top: 333px;
+}
+#dot2 {
+  height: 30px;
+  width: 14px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+    left: 681px;
+    top: 352px;
+}
+	#dot3 {
+  height: 22px;
+  width: 60px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+    left: 653px;
+    top: 335px;
+}
+	#dot4 {
+  height: 22px;
+  width: 60px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+    left: 653px;
+    top: 335px;
+}
+    .arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 44px solid #bbb;
+    position: absolute;
+    left: 668px;
+    top: 286px;   
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 44px solid #bbb;
+    position: absolute;
+    left: 668px;
+    top: 369px; 
+}
+
  #xabox {
   width: 150px;
   height: 60px;
@@ -19,11 +82,11 @@
 }
 #xcbox {
   width: 40px;
-  height: 140px;
-  background: linear-gradient(to left, grey 0%, lightgrey 100%);
+  height: 108px;
+  background: linear-gradient(#bbb, #bbb);
               position: absolute;
             left: 668px;
-            top: 260px;
+            top: 261px;
 }
     #yabox {
   width: 150px;
@@ -43,13 +106,14 @@
 }
         #ycbox {
   width: 40px;
-  height: 140px;
-  background: linear-gradient(to left, grey 0%, lightgrey 100%);
+  height: 108px;
+  background: linear-gradient(#bbb, #bbb);
               position: absolute;
             left: 668px;
-            top: 300px;
+            top: 330px;
 }
-     button {
+   
+    button {
   margin-top: 1px;
   margin-bottom: 1px;
   margin-left: 415px;
