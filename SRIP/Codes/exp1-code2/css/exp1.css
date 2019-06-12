@@ -1,8 +1,5 @@
- body {
-        color: mediumblue;
-}
-	#dot1 {
-  height: 10px;
+#dot1 {
+  height: 9px;
   width: 12px;
   background-color: white;   
   animation-delay: 15s;
@@ -10,60 +7,22 @@
   display: inline-block;
   position: absolute;
     left: 682px;
-    top: 333px;
+    top: 334px;
 }
 #dot2 {
-  height: 30px;
-  width: 14px;
+  height: 10px;
+  width: 12px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-    left: 681px;
-    top: 352px;
+    left: 682px;
+    top: 351px;
 }
-	#dot3 {
-  height: 22px;
-  width: 60px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-    left: 653px;
-    top: 335px;
+		
+		body {
+        color: mediumblue;
 }
-	#dot4 {
-  height: 22px;
-  width: 60px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-    left: 653px;
-    top: 335px;
-}
-    .arrow-up {
-  width: 0; 
-  height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 44px solid #bbb;
-    position: absolute;
-    left: 668px;
-    top: 286px;   
-}
-
-.arrow-down {
-  width: 0; 
-  height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 44px solid #bbb;
-    position: absolute;
-    left: 668px;
-    top: 369px; 
-}
-
  #xabox {
   width: 150px;
   height: 60px;
@@ -82,11 +41,11 @@
 }
 #xcbox {
   width: 40px;
-  height: 108px;
-  background: linear-gradient(#bbb, #bbb);
+  height: 100px;
+  background: linear-gradient(to left, #bbb 0%, #bbb 100%);
               position: absolute;
             left: 668px;
-            top: 261px;
+            top: 260px;
 }
     #yabox {
   width: 150px;
@@ -106,14 +65,13 @@
 }
         #ycbox {
   width: 40px;
-  height: 108px;
-  background: linear-gradient(#bbb, #bbb);
+  height: 100px;
+  background: linear-gradient(to left, #bbb 0%, #bbb 100%);
               position: absolute;
             left: 668px;
-            top: 330px;
+            top: 340px;
 }
-   
-    button {
+     button {
   margin-top: 1px;
   margin-bottom: 1px;
   margin-left: 415px;
@@ -124,3 +82,23 @@
             left: 400px;
             top: 50px;
   }
+		#xdt {
+	border-top: 40px solid #bbb;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 10px;
+	width: 20px;
+			position: absolute;
+            left: 668px;
+            top: 305px;
+}
+		#ydt {
+	border-bottom: 40px solid #bbb;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 10px;
+	width: 20px;
+			position: absolute;
+            left: 668px;
+            top: 345px;
+}
