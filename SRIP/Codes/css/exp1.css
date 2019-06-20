@@ -71,7 +71,7 @@
             left: 668px;
             top: 340px;
 }
-     button {
+     #start {
   margin-top: 1px;
   margin-bottom: 1px;
   margin-left: 415px;
@@ -81,6 +81,17 @@
             position: absolute;
             left: 400px;
             top: 50px;
+  }
+ 	#stop {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 415px;
+  margin-right: 0px;
+  background-color: black;
+  color: white;
+            position: absolute;
+            left: 400px;
+            top: 100px;
   }
 		#xdt {
 	border-top: 40px solid #bbb;
