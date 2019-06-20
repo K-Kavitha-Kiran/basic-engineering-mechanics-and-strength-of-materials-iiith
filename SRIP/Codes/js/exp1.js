@@ -1,4 +1,6 @@
-function move() {
+function move(allgood) {
+		if (allgood="true") {
+		alert(allgood);
 		xa();
 		xb();
 		xc();
@@ -9,8 +11,10 @@ function move() {
 		yd();
 		w1();
 		w2();
+		}
 	}
-	function xa() {
+	function xa(allgood) {
+		if (allgood="true"){
   var elem = document.getElementById("xabox");   
   var pos = 167;
   var id = setInterval(frame, 200);
@@ -23,8 +27,10 @@ function move() {
        }
   }
 }
-function xb() {
-  var elem = document.getElementById("xbbox");   
+}
+function xb(allgood) {
+	if (allgood="true") {
+		var elem = document.getElementById("xbbox");   
   var pos = 222;
   var id = setInterval(frame, 200);
   function frame() {
@@ -36,7 +42,10 @@ function xb() {
          }
   }
 }
-function xc() {
+	}
+  
+function xc(allgood) {
+if (allgood="true") {
   var elem = document.getElementById("xcbox");   
   var pos = 260;
   var id = setInterval(frame, 200);
@@ -49,7 +58,9 @@ function xc() {
          }
   }
 }
-    function ya() {
+}
+    function ya(allgood) {
+		if (allgood="true") {
   var elem = document.getElementById("yabox");   
   var pos = 476;
   var id = setInterval(frame, 200);
@@ -62,7 +73,9 @@ function xc() {
        }
   }
 }
-function yb() {
+	}
+function yb(allgood) {
+	if (allgood="true") {
   var elem = document.getElementById("ybbox");   
   var pos = 438;
   var id = setInterval(frame, 200);
@@ -75,7 +88,9 @@ function yb() {
          }
   }
 }
-function yc() {
+}
+function yc(allgood) {
+	if (allgood="true") {
   var elem = document.getElementById("ycbox");   
   var pos = 340;
   var id = setInterval(frame, 200);
@@ -88,7 +103,9 @@ function yc() {
          }
   }
 }
-	function xd() {
+}
+	function xd(allgood) {
+		if (allgood="true") {
   var elem = document.getElementById("xdt");   
   var pos = 360;
   var id = setInterval(frame, 200);
@@ -101,7 +118,9 @@ function yc() {
          }
   }
 }
-	function yd() {
+	}
+	function yd(allgood) {
+		if (allgood="true") {
   var elem = document.getElementById("ydt");   
   var pos = 290;
   var id = setInterval(frame, 200);
@@ -114,8 +133,10 @@ function yc() {
          }
   }
 }
+	}
 	 
-	function w1() {
+	function w1(allgood) {
+		if (allgood="true") {
   var elem = document.getElementById("dot1");   
   var pos = 393;
  var id = setInterval(frame, 213);
@@ -128,7 +149,9 @@ function yc() {
        }
   }
 }
+	}
 	function w2() {
+		if (allgood="true") {
   var elem = document.getElementById("dot2");   
   var pos = 320;
  var id = setInterval(frame, 353);
@@ -141,3 +164,4 @@ function yc() {
        }
   }
 }
+	}
